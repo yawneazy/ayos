@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5e4618db.css",
+    "main.js": "/static/js/main.5497adbc.js",
+    "static/js/453.57329c18.chunk.js": "/static/js/453.57329c18.chunk.js",
+    "static/media/cactus-painting.png": "/static/media/cactus-painting.e7f09b0c5b9eb043f9dd.png",
+    "static/media/flowers-painting.jpeg": "/static/media/flowers-painting.b278149d3a2192fbbcaf.jpeg",
+    "static/media/diploma-thumb.png": "/static/media/diploma-thumb.c3df15b70ae3d17a28a2.png",
+    "static/media/piano.jpg": "/static/media/piano.0ba59a3ee22f4f73c3ee.jpg",
+    "static/media/vgs-thumb.png": "/static/media/vgs-thumb.ab04e6798cbcbd66ba88.png",
+    "static/media/homepic.jpg": "/static/media/homepic.eec01941841ee081da2d.jpg",
+    "static/media/resume-thumb.png": "/static/media/resume-thumb.adced42755a00b316931.png",
+    "static/media/mail-icon.png": "/static/media/mail-icon.32f3538b8b9ce629d5a0.png",
+    "static/media/linkedin-logo.png": "/static/media/linkedin-logo.9a1a7f8162140e296345.png",
+    "index.html": "/index.html",
+    "main.5e4618db.css.map": "/static/css/main.5e4618db.css.map",
+    "main.5497adbc.js.map": "/static/js/main.5497adbc.js.map",
+    "453.57329c18.chunk.js.map": "/static/js/453.57329c18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e4618db.css",
+    "static/js/main.5497adbc.js"
+  ]
+}
