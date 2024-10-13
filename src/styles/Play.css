@@ -1,0 +1,130 @@
+.art-container, .music-container {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 50px; 
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto; 
+  padding: 0 20px;
+  box-sizing: border-box; 
+}
+
+.category-header {
+  font-size: 2rem;
+  text-align: left;
+  font-weight: bolder;
+  margin-bottom: 2rem;
+  }
+
+.play-header {
+    margin-top: 5rem;
+    font-size: 1rem;
+    text-align: left;
+  }
+  
+  .play-header2 {
+    font-size: 3rem;
+    text-align: left;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+    }
+  
+.play-container {
+  justify-content: flex; 
+  flex-wrap: wrap; 
+}
+
+.video-container {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 50px; 
+  justify-content: flex-start; 
+}
+
+.video-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px; 
+}
+
+.video-thumbnail {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.video-thumbnail iframe {
+  width: 100%;
+  height: 400px; 
+}
+    .thumbnail {
+      flex: 1 1 calc(50% - 50px); 
+  max-width: calc(50% - 50px); 
+  box-sizing: border-box; 
+    }
+    
+    .thumbnail img, .video-thumbnail img {
+      width: 100%;            
+      height: auto;          
+      border-radius: 2px;  
+    }
+
+    .thumbnail p, .video-thumbnail p {
+      text-align: left; 
+      margin-top: 10px; 
+    }
+    
+    .summary-text{
+      text-align: left;
+    }
+
+    .video-description {
+      margin-top: 10px;
+      text-align: left;
+      font-size: 1rem;
+    }
+    @media (max-width: 768px) {
+      .art-container {
+        display: flex;    
+        flex-direction: column;      
+        align-items: center;       
+        justify-content: center; 
+      }
+
+      .music-container {
+        display: flex;    
+        flex-direction: column;      
+        align-items: center;       
+        justify-content: center; 
+      }
+
+      .video-container {
+        flex-direction: column; 
+        gap: 20px; 
+        justify-content: center;
+      }
+    
+      .video-thumbnail {
+        width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0; 
+      }
+
+      .video-description {
+        width: 100%; 
+      }
+
+      .video-thumbnail iframe {
+        height: auto; 
+        padding-bottom: 56.25%; 
+      }
+
+      .video-item {
+        width: 100%; 
+        align-items: center;
+      }
+    
+  }

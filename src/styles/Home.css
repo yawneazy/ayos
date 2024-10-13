@@ -1,0 +1,58 @@
+.selected {
+  font-size: 3.5rem; 
+}
+
+/* Blues */
+.designer, .portfolio, .video-productions {
+    color: #415a77;
+  }
+
+  .video-productions:hover, .designer:hover, .portfolio:hover {
+    color: #778da9;
+  }
+
+  /* Greens   */
+  .artist {
+    color: #606c38;
+  }
+
+  .artist:hover {
+    color: #283618;
+  }
+  
+  /* Browns */
+  .musician, .resume {
+    color: #582f0e;
+  }
+
+  .musician:hover, .resume:hover {
+    color: #6e4730;
+  }
+
+  /* Oranges */
+.developer {
+  color: #b3845f;
+}
+
+.developer:hover {
+  color: #bc6c25;
+}
+
+  .home-header {
+    margin-top: 5rem;
+    font-size: 3rem;
+    text-align: left;
+    font-weight: bolder;
+  }
+  
+  .home-header2 {
+    font-size: 3rem;
+    text-align: left;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+    }
+  
+    .home-content{
+      font-size: 1.5rem;
+      text-align: left;
+      }
